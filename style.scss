@@ -4,11 +4,11 @@
     box-sizing: border-box;
 }
 body{
-    background: rgb(31,146,243);
-    background: -moz-linear-gradient(90deg, rgba(31,146,243,1) 0%, rgba(216,253,255,1) 100%);
-    background: -webkit-linear-gradient(90deg, rgba(31,146,243,1) 0%, rgba(216,253,255,1) 100%);
-    background: linear-gradient(90deg, rgba(31,146,243,1) 0%, rgba(216,253,255,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1f92f3",endColorstr="#d8fdff",GradientType=1);
+    background: rgb(63,110,209);
+    background: -moz-linear-gradient(90deg, rgba(63,110,209,1) 0%, rgba(160,216,238,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(63,110,209,1) 0%, rgba(160,216,238,1) 100%);
+    background: linear-gradient(90deg, rgba(63,110,209,1) 0%, rgba(160,216,238,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3f6ed1",endColorstr="#a0d8ee",GradientType=1);
 }
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
 
