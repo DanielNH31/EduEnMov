@@ -14,4 +14,14 @@ body{
 
 .nav-link.active{
     color: $white;
+    border-radius: 15px;
+}
+.nav-link{
+    border-radius: 15px;
+}
+.nav-link.active:hover{
+    background-color: $secondary;
+}
+.nav-link:hover{
+    background-color: $secondary;
 }
