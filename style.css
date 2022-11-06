@@ -5,6 +5,12 @@
   box-sizing: border-box;
 }
 
+body {
+  background: rgb(31, 146, 243);
+  background: linear-gradient(90deg, rgb(31, 146, 243) 0%, rgb(216, 253, 255) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1f92f3",endColorstr="#d8fdff",GradientType=1);
+}
+
 /*!
  * Bootstrap  v5.2.2 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors

@@ -3,6 +3,13 @@
     padding: 0%;
     box-sizing: border-box;
 }
+body{
+    background: rgb(31,146,243);
+    background: -moz-linear-gradient(90deg, rgba(31,146,243,1) 0%, rgba(216,253,255,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(31,146,243,1) 0%, rgba(216,253,255,1) 100%);
+    background: linear-gradient(90deg, rgba(31,146,243,1) 0%, rgba(216,253,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1f92f3",endColorstr="#d8fdff",GradientType=1);
+}
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
 
 .nav-link.active{
