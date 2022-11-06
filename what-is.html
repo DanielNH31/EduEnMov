@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="preload" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <title>¿Qué es el trastorno?</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <h4 class="navbar-brand animate__animated animate__shakeY animate__slower animate__infinite	infinite" id="looped_animation"><b>Educando en movimiento</b></h4>
+          <div class="collapse navbar-collapse justify-content-around" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="navbar-item">
+                <a class="nav-link" href="index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="navbar-item active">
+                <a class="nav-link" href="us.html">Nosotros</a>
+              </li>
+              <li class="navbar-item" aria-current="page">
+                <a class="nav-link" href="what-is.html"
+                  >¿Que es el trastorno?</a
+                >
+              </li>
+              <li class="navbar-item">
+                <a class="nav-link" href="#">¿Que dicen los expertos</a>
+              </li>
+              <li class="navbar-item">
+                <a class="nav-link" href="#">Modelos educativos</a>
+              </li>
+              <li class="navbar-item">
+                <a class="nav-link" href="#">Datos adicionales</a>
+              </li>
+            </ul>
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
+    </header>
+    <main class="animate__animated animate__fadeInLeft animate__slow">
+      <span class="placeholder col-12 bg-transparent"></span>
+      <span class="placeholder col-12 bg-transparent"></span>
+      <div class="px-4 py-5 my-5 text-center">
+        <h1 class="display-5 fw-bold">¿Que es el trastorno?</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4 text-break">
+            Toda la información que necesitas comprender este trastorno,
+            a quien te tienes que acercar, y que puedes hacer
+            para apoyar a alguien con este trastorno
+          </p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center"></div>
+        </div>
+      </div>
+      <section class="container-fluid">
+        <div class="row justify-content-around">
+          <div
+            class="col-12 col-sm-12 col-md-12 col-lg-7 text-start text-dark"
+          >
+            <h3><b>Conceptos generales</b></h3>
+            <p class="text-start text-break">
+              Lorem ipsum dolor sit ametconsectetur adipisicing elit. Omnis ab
+              temporibus doloribus alias nemo magnam veniam eveniet? Fugiat illo
+              ut maxime obcaecati excepturi magni, eius id saepe rem, recusandae
+              culpa?
+            </p>
+          </div>
+          <div
+            class="col-12 col-sm-12 col-md-12 col-lg-4 bg-transparent text-start text-dark"
+          >
+            <h3><b>Datos especificos</b></h3>
+            <p class="text-start text-break">
+              Lorem ipsum dolor sit ametconsectetur adipisicing elit. Omnis ab
+              temporibus doloribus alias nemo magnam veniam eveniet? Fugiat illo
+              ut maxime obcaecati excepturi magni, eius id saepe rem, recusandae
+              culpa?
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="./node_modules/bootstrap/js/src/bootstrap.js"></script>
+    <script>
+      let stop= document.getElementById("looped_animation");
+      looped_animation.addEventListener("mouseover",function(){
+        document.getElementById("looped_animation").className = "navbar-brand animate__animated animate__shakeY"
+      });
+      let move= document.getElementById("looped_animation");
+      looped_animation.addEventListener("mouseout",function(){
+        document.getElementById("looped_animation").className = "navbar-brand animate__animated animate__shakeY animate__slower animate__infinite	infinite"
+      });
+  </script>
+  </body>
+</html>
