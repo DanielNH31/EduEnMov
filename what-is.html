@@ -31,7 +31,7 @@
               <a class="nav-link active" aria-current="page" href="what-is.html">¿Que es el trastorno?</a>
             </li>
             <li class="navbar-item">
-              <a class="nav-link" href="#">¿Que dicen los expertos</a>
+              <a class="nav-link" href="experts.html">¿Que dicen los expertos</a>
             </li>
             <li class="navbar-item">
               <a class="nav-link" href="#">Modelos educativos</a>
@@ -51,50 +51,61 @@
   <main class="animate__animated animate__fadeInLeft animate__slow">
     <span class="placeholder col-12 bg-transparent"></span>
     <span class="placeholder col-12 bg-transparent"></span>
-    <div class="px-4 py-5 my-5 text-center">
-      <h1 class="display-5 fw-bold">¿Que es el trastorno?</h1>
-      <div class="col-lg-6 mx-auto">
-        <p class="lead mb-4 text-break">
-          Toda la información que necesitas comprender este trastorno,
-          a quien te tienes que acercar, y que puedes hacer
-          para apoyar a alguien con este trastorno
-        </p>
-        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center"></div>
-      </div>
-    </div>
     <section class="container-fluid">
-      <div class="row justify-content-around">
-        <div class="col-12 col-sm-12 col-md-12 col-lg-7 text-start text-dark">
-          <h3><b>Conceptos generales</b></h3>
-          <p class="text-start text-break">
-            Lorem ipsum dolor sit ametconsectetur adipisicing elit. Omnis ab
-            temporibus doloribus alias nemo magnam veniam eveniet? Fugiat illo
-            ut maxime obcaecati excepturi magni, eius id saepe rem, recusandae
-            culpa?
+      <div class="px-4 py-5 my-5 text-center">
+        <h1 class="display-5 fw-bold">¿Que es el trastorno?</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4 text-break">
+            Toda la información que necesitas comprender este trastorno,
+            a quien te tienes que acercar, y que puedes hacer
+            para apoyar a alguien con este trastorno
           </p>
-        </div>
-        <div class="col-12 col-sm-12 col-md-12 col-lg-4 bg-transparent text-start text-dark">
-          <h3><b>Datos especificos</b></h3>
-          <p class="text-start text-break">
-            Lorem ipsum dolor sit ametconsectetur adipisicing elit. Omnis ab
-            temporibus doloribus alias nemo magnam veniam eveniet? Fugiat illo
-            ut maxime obcaecati excepturi magni, eius id saepe rem, recusandae
-            culpa?
-          </p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center"></div>
         </div>
       </div>
     </section>
+    <div class="container fluid">
+      <div class="row">
+        <div
+          class="col-12 col-sm-12 col-md-7 col-lg-7 animate__animated animate__rotateIn animate__slow animate__delay-3s">
+          <div class="p-5 mb-5 bg-light rounded-5">
+            <div class="container-fluid py-5">
+              <h3>Conceptos generales</h3>
+              <p class="col-md-12 fs-4">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Error quos voluptatem eligendi iusto magni harum architecto
+                odit perspiciatis ut dolores, sequi quia qui ab, doloribus
+                sed est beatae nam vitae!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-5 col-lg-5 animate__animated animate__rotateIn animate__slow animate__delay-3s">
+          <div class="p-5 mb-5 bg-light rounded-5 pb-0">
+            <div class="container-fluid py-5">
+              <h3>Datos especificos</h3>
+              <p class="col-md-12 fs-4">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Error quos voluptatem eligendi iusto magni harum architecto
+                odit perspiciatis ut dolores, sequi quia qui ab, doloribus
+                sed est beatae nam vitae!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </main>
   <script src="./node_modules/bootstrap/js/src/bootstrap.js"></script>
   <script>
     let stop = document.getElementById("looped_animation");
     looped_animation.addEventListener("mouseover", function () {
       document.getElementById("looped_animation").className = "navbar-brand animate__animated animate__shakeY"
-    });
+    })
     let move = document.getElementById("looped_animation");
     looped_animation.addEventListener("mouseout", function () {
       document.getElementById("looped_animation").className = "navbar-brand animate__animated animate__shakeY animate__slower animate__infinite	infinite"
-    });
+    })
   </script>
 </body>
 
