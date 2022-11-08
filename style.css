@@ -5,10 +5,34 @@
   box-sizing: border-box;
 }
 
+@-webkit-keyframes AnimateBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes AnimateBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
 body {
-  background: rgb(63, 110, 209);
-  background: linear-gradient(90deg, rgb(63, 110, 209) 0%, rgb(160, 216, 238) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3f6ed1",endColorstr="#a0d8ee",GradientType=1);
+  background-size: 300%;
+  background-image: linear-gradient(-60deg, rgb(59, 173, 227) 0%, rgb(87, 111, 230) 25%, rgb(101, 212, 168) 51%, rgb(252, 255, 201) 100%);
+  -webkit-animation: AnimateBG 20s ease infinite;
+          animation: AnimateBG 20s ease infinite;
 }
 
 /*!

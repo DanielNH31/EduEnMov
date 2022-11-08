@@ -3,12 +3,21 @@
     padding: 0%;
     box-sizing: border-box;
 }
+@keyframes AnimateBG { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
 body{
-    background: rgb(63,110,209);
-    background: -moz-linear-gradient(90deg, rgba(63,110,209,1) 0%, rgba(160,216,238,1) 100%);
-    background: -webkit-linear-gradient(90deg, rgba(63,110,209,1) 0%, rgba(160,216,238,1) 100%);
-    background: linear-gradient(90deg, rgba(63,110,209,1) 0%, rgba(160,216,238,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3f6ed1",endColorstr="#a0d8ee",GradientType=1);
+    background-size: 300%;
+    background-image: linear-gradient(
+          -60deg, 
+          rgba(59,173,227,1) 0%, 
+          rgba(87,111,230,1) 25%, 
+          rgb(101, 212, 168) 51%, 
+          rgb(252, 255, 201) 100%
+    );  
+    animation: AnimateBG 20s ease infinite;
 }
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
 
