@@ -31,8 +31,8 @@
 body {
   background-size: 300%;
   background-image: linear-gradient(-60deg, rgb(59, 173, 227) 0%, rgb(87, 111, 230) 25%, rgb(101, 212, 168) 51%, rgb(252, 255, 201) 100%);
-  -webkit-animation: AnimateBG 30s ease infinite;
-          animation: AnimateBG 30s ease infinite;
+  -webkit-animation: AnimateBG 15s ease infinite;
+          animation: AnimateBG 15s ease infinite;
 }
 
 /*!
