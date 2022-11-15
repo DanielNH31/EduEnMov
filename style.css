@@ -899,3 +899,7 @@ button:not(:disabled),
 .nav-link:hover {
   background-color: #6c757d;
 }
+#foto-Daniel{
+  width: 400px;
+  max-width: 100%;
+}
