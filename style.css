@@ -199,6 +199,11 @@ ul ul {
   margin-bottom: 0;
 }
 
+
+strong {
+  font-weight: bolder;
+}
+
 a {
   color: var(--bs-link-color);
   text-decoration: underline;
@@ -210,6 +215,10 @@ a:hover {
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
   color: inherit;
   text-decoration: none;
+}
+
+img {
+  vertical-align: middle;
 }
 
 label {
@@ -317,6 +326,11 @@ button:not(:disabled),
   }
 }
 
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
 .container,
 .container-fluid {
   --bs-gutter-x: 1.5rem;
@@ -388,6 +402,10 @@ button:not(:disabled),
   }
 }
 @media (min-width: 768px) {
+  .col-md-3 {
+    flex: 0 0 auto;
+    width: 25%;
+  }
   .col-md-5 {
     flex: 0 0 auto;
     width: 41.66666667%;
@@ -399,6 +417,10 @@ button:not(:disabled),
   .col-md-7 {
     flex: 0 0 auto;
     width: 58.33333333%;
+  }
+  .col-md-9 {
+    flex: 0 0 auto;
+    width: 75%;
   }
   .col-md-12 {
     flex: 0 0 auto;
@@ -718,6 +740,10 @@ button:not(:disabled),
   display: grid !important;
 }
 
+.h-75 {
+  height: 75% !important;
+}
+
 .justify-content-around {
   justify-content: space-around !important;
 }
@@ -782,6 +808,14 @@ button:not(:disabled),
 
 .fs-4 {
   font-size: calc(1.275rem + 0.3vw) !important;
+}
+
+.fs-5 {
+  font-size: 1.25rem !important;
+}
+
+.fs-6 {
+  font-size: 1rem !important;
 }
 
 .fw-bold {
