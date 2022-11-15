@@ -199,11 +199,6 @@ ul ul {
   margin-bottom: 0;
 }
 
-
-strong {
-  font-weight: bolder;
-}
-
 a {
   color: var(--bs-link-color);
   text-decoration: underline;
@@ -304,14 +299,14 @@ button:not(:disabled),
   font-weight: 300;
 }
 
-.display-2 {
-  font-size: calc(1.575rem + 3.9vw);
+.display-3 {
+  font-size: calc(1.525rem + 3.3vw);
   font-weight: 300;
   line-height: 1.2;
 }
 @media (min-width: 1200px) {
-  .display-2 {
-    font-size: 4.5rem;
+  .display-3 {
+    font-size: 4rem;
   }
 }
 
@@ -439,6 +434,10 @@ button:not(:disabled),
   .col-lg-7 {
     flex: 0 0 auto;
     width: 58.33333333%;
+  }
+  .col-lg-8 {
+    flex: 0 0 auto;
+    width: 66.66666667%;
   }
   .col-lg-12 {
     flex: 0 0 auto;
@@ -740,10 +739,6 @@ button:not(:disabled),
   display: grid !important;
 }
 
-.h-75 {
-  height: 75% !important;
-}
-
 .justify-content-around {
   justify-content: space-around !important;
 }
@@ -779,8 +774,8 @@ button:not(:disabled),
   margin-bottom: 3rem !important;
 }
 
-.p-5 {
-  padding: 3rem !important;
+.p-3 {
+  padding: 1rem !important;
 }
 
 .px-4 {
@@ -788,9 +783,9 @@ button:not(:disabled),
   padding-left: 1.5rem !important;
 }
 
-.py-4 {
-  padding-top: 1.5rem !important;
-  padding-bottom: 1.5rem !important;
+.py-3 {
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
 }
 
 .py-5 {
@@ -808,10 +803,6 @@ button:not(:disabled),
 
 .fs-4 {
   font-size: calc(1.275rem + 0.3vw) !important;
-}
-
-.fs-5 {
-  font-size: 1.25rem !important;
 }
 
 .fs-6 {
@@ -899,7 +890,12 @@ button:not(:disabled),
 .nav-link:hover {
   background-color: #6c757d;
 }
-#foto-Daniel{
+
+#foto-Daniel {
   width: 400px;
   max-width: 100%;
+}
+
+.text-justify {
+  text-align: justify !important;
 }
