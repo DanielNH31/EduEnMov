@@ -1,42 +1,46 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
 }
-@keyframes AnimateBG { 
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+@keyframes AnimateBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
-body{
-    background-size: 300% 300%;
-    background-image: linear-gradient(
-          -60deg, 
-          rgba(59,173,227,1) 0%, 
-          rgba(87,111,230,1) 25%, 
-          rgb(101, 212, 168) 51%, 
-          rgb(252, 255, 201) 100%
-    );  
-    animation: AnimateBG 10s linear;
+body {
+  background-size: 300% 300%;
+  background-image: linear-gradient(
+    -45deg,
+    rgba(36, 79, 197) 2%,
+    rgb(188, 249, 230, 1) 100%
+  );
+  animation: AnimateBG 17s ease infinite;
 }
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
-.nav-link.active{
-    color: $white;
-    border-radius: 15px;
+.nav-link.active {
+  color: $white;
+  border-radius: 15px;
 }
-.nav-link{
-    border-radius: 15px;
+.nav-link {
+  border-radius: 15px;
 }
-.nav-link.active:hover{
-    background-color: $secondary;
+.nav-link.active:hover {
+  background-color: $secondary;
 }
-.nav-link:hover{
-    background-color: $secondary;
+.nav-link:hover {
+  background-color: $secondary;
 }
-#foto-Daniel{
-    width: 400px;
-    max-width: 100%;
+#foto-Daniel {
+  width: 400px;
+  max-width: 100%;
 }
-.text-justify{
-    text-align: justify !important;
+.text-justify {
+  text-align: justify !important;
 }
