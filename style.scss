@@ -26,10 +26,10 @@ body {
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
 .nav-link.active {
   color: $white;
-  border-radius: 15px;
+  border-radius: 12px;
 }
 .nav-link {
-  border-radius: 15px;
+  border-radius: 12px;
 }
 .nav-link.active:hover {
   background-color: $secondary;

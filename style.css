@@ -30,7 +30,7 @@
 }
 body {
   background-size: 300% 300%;
-  background-image: linear-gradient(-45deg,rgb(36, 79, 197) 2%, rgba(188,249,230,1) 100%);
+  background-image: linear-gradient(-45deg, rgb(36, 79, 197) 2%, rgb(188, 249, 230) 100%);
   -webkit-animation: AnimateBG 17s ease infinite;
           animation: AnimateBG 17s ease infinite;
 }
@@ -380,6 +380,11 @@ button:not(:disabled),
   margin-top: var(--bs-gutter-y);
 }
 
+.col-5 {
+  flex: 0 0 auto;
+  width: 41.66666667%;
+}
+
 .col-10 {
   flex: 0 0 auto;
   width: 83.33333333%;
@@ -391,15 +396,19 @@ button:not(:disabled),
 }
 
 @media (min-width: 576px) {
+  .col-sm-5 {
+    flex: 0 0 auto;
+    width: 41.66666667%;
+  }
   .col-sm-12 {
     flex: 0 0 auto;
     width: 100%;
   }
 }
 @media (min-width: 768px) {
-  .col-md-3 {
+  .col-md-4 {
     flex: 0 0 auto;
-    width: 25%;
+    width: 33.33333333%;
   }
   .col-md-5 {
     flex: 0 0 auto;
@@ -413,9 +422,9 @@ button:not(:disabled),
     flex: 0 0 auto;
     width: 58.33333333%;
   }
-  .col-md-9 {
+  .col-md-8 {
     flex: 0 0 auto;
-    width: 75%;
+    width: 66.66666667%;
   }
   .col-md-12 {
     flex: 0 0 auto;
@@ -423,6 +432,14 @@ button:not(:disabled),
   }
 }
 @media (min-width: 992px) {
+  .col-lg-3 {
+    flex: 0 0 auto;
+    width: 25%;
+  }
+  .col-lg-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+  }
   .col-lg-5 {
     flex: 0 0 auto;
     width: 41.66666667%;
@@ -438,6 +455,10 @@ button:not(:disabled),
   .col-lg-8 {
     flex: 0 0 auto;
     width: 66.66666667%;
+  }
+  .col-lg-9 {
+    flex: 0 0 auto;
+    width: 75%;
   }
   .col-lg-12 {
     flex: 0 0 auto;
@@ -743,6 +764,10 @@ button:not(:disabled),
   justify-content: space-around !important;
 }
 
+.align-items-center {
+  align-items: center !important;
+}
+
 .mx-5 {
   margin-right: 3rem !important;
   margin-left: 3rem !important;
@@ -876,11 +901,11 @@ button:not(:disabled),
 }
 .nav-link.active {
   color: #fff;
-  border-radius: 15px;
+  border-radius: 12px;
 }
 
 .nav-link {
-  border-radius: 15px;
+  border-radius: 12px;
 }
 
 .nav-link.active:hover {
