@@ -778,6 +778,11 @@ button:not(:disabled),
   margin-left: auto !important;
 }
 
+.my-3 {
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+}
+
 .my-5 {
   margin-top: 3rem !important;
   margin-bottom: 3rem !important;
@@ -791,6 +796,10 @@ button:not(:disabled),
   margin-bottom: 0.5rem !important;
 }
 
+.mb-3 {
+  margin-bottom: 1rem !important;
+}
+
 .mb-4 {
   margin-bottom: 1.5rem !important;
 }
@@ -801,6 +810,15 @@ button:not(:disabled),
 
 .p-3 {
   padding: 1rem !important;
+}
+
+.p-4 {
+  padding: 1.5rem !important;
+}
+
+.px-3 {
+  padding-right: 1rem !important;
+  padding-left: 1rem !important;
 }
 
 .px-4 {
