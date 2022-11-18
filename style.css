@@ -10996,3 +10996,18 @@ textarea.form-control-lg {
 .text-justify {
   text-align: justify !important;
 }
+
+.btn-transparent {
+  text-decoration: none;
+  color: #000;
+}
+
+.btn-transparent:active {
+  text-decoration: none;
+  color: #000;
+}
+
+.btn-transparent:hover {
+  text-decoration: none;
+  color: #000;
+}

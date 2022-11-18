@@ -44,3 +44,15 @@ body {
 .text-justify {
   text-align: justify !important;
 }
+.btn-transparent{
+  text-decoration: none;
+  color: $black;
+}
+.btn-transparent:active{
+  text-decoration: none;
+  color: $black;
+}
+.btn-transparent:hover{
+  text-decoration: none;
+  color: $black;
+}
