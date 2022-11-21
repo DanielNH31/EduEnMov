@@ -11011,3 +11011,10 @@ textarea.form-control-lg {
   text-decoration: none;
   color: #000;
 }
+
+#espec-tooltip {
+  z-index: 3;
+  display: flex;
+  position: absolute;
+  margin-left: 15rem;
+}

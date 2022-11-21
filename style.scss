@@ -56,3 +56,9 @@ body {
   text-decoration: none;
   color: $black;
 }
+#espec-tooltip{
+  z-index: 3;
+  display: flex;
+  position: absolute;
+  margin-left: 15rem;
+}
