@@ -57,8 +57,23 @@ body {
   color: $black;
 }
 #espec-tooltip{
+  z-index: 4;
+  display: flex;
+  position: absolute;
+  margin-right: 20rem !important;
+  margin-bottom: 40rem !important;
+}
+#crit-tooltip{
   z-index: 3;
   display: flex;
   position: absolute;
   margin-left: 15rem;
 }
+#def-tooltip{
+  z-index: 5;
+  display: flex;
+  position: absolute;
+  margin-left: 15rem;
+  margin-top: 10rem;
+}
+

@@ -14,3 +14,17 @@ especTooltip.addEventListener("mouseenter",() => {
 especTooltip.addEventListener("mouseleave",() => {
     document.getElementById("espec-tooltip").classList.add("invisible");    
 })
+let critTooltip = document.getElementById("crit");
+critTooltip.addEventListener("mouseenter",() => {
+    document.getElementById("crit-tooltip").classList.remove("invisible");
+})
+critTooltip.addEventListener("mouseleave",() => {
+    document.getElementById("crit-tooltip").classList.add("invisible");
+})
+let defTooltip = document.getElementById("def");
+defTooltip.addEventListener("mouseenter",() => {
+    document.getElementById("def-tooltip").classList.remove("invisible");
+})
+defTooltip.addEventListener("mouseleave",() => {
+    document.getElementById("def-tooltip").classList.add("invisible");
+})
