@@ -24,9 +24,23 @@ body {
 .nav-link:hover {
   background-color: $secondary;
 }
+@mixin miniPictures {
+  width: 8rem !important;
+  max-width: 100% !important;
+}
 #foto-Daniel {
   width: 400px;
   max-width: 100%;
+}
+#human-standing {
+@include miniPictures;
+}
+#human-curious{
+@include miniPictures;
+}
+#doctor{
+  width: 15rem !important;
+  max-width: 100% !important;
 }
 .text-justify {
   text-align: justify !important;
@@ -62,5 +76,10 @@ body {
   position: absolute;
   margin-left: 15rem;
   margin-top: 10rem;
+}
+#man-tooltip{
+  z-index: 5;
+  display: flex;
+  position: absolute;
 }
 

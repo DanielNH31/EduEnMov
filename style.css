@@ -10969,6 +10969,21 @@ textarea.form-control-lg {
   max-width: 100%;
 }
 
+#human-standing {
+  width: 8rem !important;
+  max-width: 100% !important;
+}
+
+#human-curious {
+  width: 8rem !important;
+  max-width: 100% !important;
+}
+
+#doctor {
+  width: 15rem !important;
+  max-width: 100% !important;
+}
+
 .text-justify {
   text-align: justify !important;
 }
@@ -11009,4 +11024,10 @@ textarea.form-control-lg {
   position: absolute;
   margin-left: 15rem;
   margin-top: 10rem;
+}
+
+#man-tooltip {
+  z-index: 5;
+  display: flex;
+  position: absolute;
 }
