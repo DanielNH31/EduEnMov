@@ -6,9 +6,7 @@
 }
 
 body {
-  background: rgb(158, 197, 254);
-  background: linear-gradient(90deg, rgb(158, 197, 254) 49%, rgb(255, 210, 210) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9ec5fe",endColorstr="#ffd2d2",GradientType=1);
+  background-color: #598fdb !important;
 }
 
 /*!

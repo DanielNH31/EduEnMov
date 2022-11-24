@@ -3,12 +3,8 @@
   padding: 0%;
   box-sizing: border-box;
 }
-body {
-  background: rgb(158,197,254);
-  background: -moz-linear-gradient(90deg, rgba(158,197,254,1) 49%, rgba(255,210,210,1) 100%);
-  background: -webkit-linear-gradient(90deg, rgba(158,197,254,1) 49%, rgba(255,210,210,1) 100%);
-  background: linear-gradient(90deg, rgba(158,197,254,1) 49%, rgba(255,210,210,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9ec5fe",endColorstr="#ffd2d2",GradientType=1);
+body{
+  background-color: #598fdb !important;
 }
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
 .nav-link.active {
