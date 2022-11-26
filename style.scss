@@ -1,11 +1,34 @@
-$primary: #87B1EF;
+$primary: #87b1ef;
+@mixin width-photos {
+  max-width: 100%;
+}
+@mixin miniPictures {
+  width: 8rem !important;
+  max-width: 100% !important;
+}
 * {
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
 }
-body{
-  background-color: #5C95E8 !important;
+body {
+  background: rgb(204, 228, 255);
+  background: -moz-radial-gradient(
+    circle,
+    rgba(204, 228, 255, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  background: -webkit-radial-gradient(
+    circle,
+    rgba(204, 228, 255, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  background: radial-gradient(
+    circle,
+    rgba(204, 228, 255, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#cce4ff",endColorstr="#94bbe9",GradientType=1);
 }
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
 .nav-link.active {
@@ -21,62 +44,34 @@ body{
 .nav-link:hover {
   background-color: $secondary;
 }
-@mixin miniPictures {
-  width: 8rem !important;
-  max-width: 100% !important;
-}
 #foto-Daniel {
   width: 400px;
-  max-width: 100%;
+}
+#foto-Daniel, #foto-Lucy, #foto-Liz, #foto-Esly, #foto-Angel{
+  @include width-photos;
 }
 #human-standing {
-@include miniPictures;
+  @include miniPictures;
 }
-#human-curious{
-@include miniPictures;
+#human-curious {
+  @include miniPictures;
 }
-#doctor{
+#doctor {
   width: 15rem !important;
   max-width: 100% !important;
 }
 .text-justify {
   text-align: justify !important;
 }
-.btn-transparent{
+.btn-transparent {
   text-decoration: none;
   color: $black;
 }
-.btn-transparent:active{
+.btn-transparent:active {
   text-decoration: none;
   color: $black;
 }
-.btn-transparent:hover{
+.btn-transparent:hover {
   text-decoration: none;
   color: $black;
 }
-#espec-tooltip{
-  z-index: 4;
-  display: flex;
-  position: absolute;
-  margin-right: 20rem !important;
-  margin-bottom: 40rem !important;
-}
-#crit-tooltip{
-  z-index: 3;
-  display: flex;
-  position: absolute;
-  margin-left: 15rem;
-}
-#def-tooltip{
-  z-index: 5;
-  display: flex;
-  position: absolute;
-  margin-left: 15rem;
-  margin-top: 10rem;
-}
-#man-tooltip{
-  z-index: 5;
-  display: flex;
-  position: absolute;
-}
-
