@@ -60,6 +60,9 @@ body {
   width: 15rem !important;
   max-width: 100% !important;
 }
+.video{
+  @include width-photos;
+}
 .text-justify {
   text-align: justify !important;
 }
