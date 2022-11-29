@@ -1,35 +1,84 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
+$primary: #87b1ef;
+@mixin width-photos {
+  max-width: 100%;
 }
-@keyframes AnimateBG { 
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+@mixin miniPictures {
+  width: 8rem !important;
+  max-width: 100% !important;
 }
-body{
-    background-size: 300% 300%;
-    background-image: linear-gradient(
-          -60deg, 
-          rgba(59,173,227,1) 0%, 
-          rgba(87,111,230,1) 25%, 
-          rgb(101, 212, 168) 51%, 
-          rgb(252, 255, 201) 100%
-    );  
-    animation: AnimateBG 10s linear;
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  background: rgb(204, 228, 255);
+  background: -moz-radial-gradient(
+    circle,
+    rgba(204, 228, 255, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  background: -webkit-radial-gradient(
+    circle,
+    rgba(204, 228, 255, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  background: radial-gradient(
+    circle,
+    rgba(204, 228, 255, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#cce4ff",endColorstr="#94bbe9",GradientType=1);
 }
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
-.nav-link.active{
-    color: $white;
-    border-radius: 15px;
+.nav-link.active {
+  color: $white;
+  border-radius: 12px;
 }
-.nav-link{
-    border-radius: 15px;
+.nav-link {
+  border-radius: 12px;
 }
-.nav-link.active:hover{
-    background-color: $secondary;
+.nav-link.active:hover {
+  background-color: $secondary;
 }
-.nav-link:hover{
-    background-color: $secondary;
+.nav-link:hover {
+  background-color: $secondary;
+}
+#foto-Daniel {
+  width: 400px;
+}
+#foto-Daniel, #foto-Lucy, #foto-Liz, #foto-Esly, #foto-Angel{
+  @include width-photos;
+}
+#human-standing {
+  @include miniPictures;
+}
+#human-curious {
+  @include miniPictures;
+}
+#doctor {
+  width: 15rem !important;
+  max-width: 100% !important;
+}
+#cool-kids{
+  width: 25rem !important;
+  max-width: 100% !important;
+}
+.video{
+  @include width-photos;
+}
+.text-justify {
+  text-align: justify !important;
+}
+.btn-transparent {
+  text-decoration: none;
+  color: $black;
+}
+.btn-transparent:active {
+  text-decoration: none;
+  color: $black;
+}
+.btn-transparent:hover {
+  text-decoration: none;
+  color: $black;
 }
